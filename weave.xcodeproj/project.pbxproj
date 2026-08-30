@@ -16,6 +16,16 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A20000000000000000000070 /* Exceptions for "weave" folder in "weave" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/StoreKit/StoreKit.storekit,
+			);
+			target = 000000000000000100000000 /* weave */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* weave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20000000000000000000121 /* weaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +34,9 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		000000000000000000000010 /* weave */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A20000000000000000000070 /* Exceptions for "weave" folder in "weave" target */,
+			);
 			path = weave;
 			sourceTree = "<group>";
 		};
