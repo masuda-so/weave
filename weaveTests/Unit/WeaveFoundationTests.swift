@@ -39,6 +39,22 @@ final class WeaveFoundationTests: XCTestCase {
     )
   }
 
+  func testActiveDailyPassIsHiddenFromPurchaseOptions() {
+    XCTAssertEqual(
+      ProductID.offeredProductIDs(dailyPassIsActive: false),
+      ProductID.all
+    )
+    XCTAssertEqual(
+      ProductID.offeredProductIDs(dailyPassIsActive: true),
+      ProductID.subscriptions
+    )
+    XCTAssertFalse(
+      ProductID.offeredProductIDs(dailyPassIsActive: true).contains(
+        WeaveCommerceCatalog.dailyPassProductID
+      )
+    )
+  }
+
   @MainActor
   func testApplicationSectionsRemainDistinct() {
     let sections: Set<AppSection> = [.drafts, .assistant, .pro, .settings]
