@@ -18,7 +18,10 @@ editing, sharing, and deletion with visible save and delete failure states.
 ## Intelligence and commerce
 
 The assistant uses Apple Foundation Models on supported devices and languages.
-The local StoreKit configuration provides:
+It loads a saved or new draft into the composer, shows the original beside an
+editable generated revision, and requires confirmation before saving or applying.
+Sharing opens the system share sheet and never sends automatically. The local
+StoreKit configuration provides:
 
 - `llc.ether.weave.pro.daily`: non-renewing 24-hour Daily Pass.
 - `llc.ether.weave.pro.monthly`: auto-renewable monthly plan.
