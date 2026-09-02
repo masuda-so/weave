@@ -1,7 +1,9 @@
 # Weave
 
 Weave is a communication app for thoughtful drafting and messaging. It includes
-private local drafts, focused editing, and system sharing.
+private local drafts, focused editing, and system sharing. Its on-device assistant
+shows an editable revision alongside the original and never applies, saves, or
+sends the result automatically.
 
 ## Initial navigation
 

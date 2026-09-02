@@ -10,7 +10,8 @@ or public-release claim.
 - Local SwiftData draft creation, editing, deletion, persistence, rollback, and
   system sharing.
 - On-device Foundation Models adapter with supported-device/language fallback,
-  explicit user action, cancellation, stable error vocabulary, and no remote AI
+  original/revision comparison, confirmation before applying or saving, explicit
+  system-share action, cancellation, stable error vocabulary, and no remote AI
   provider.
 - StoreKit 2 product loading, purchase, restore, verified-entitlement, finishing,
   update handling, refund/revocation filtering, and device-clock expiry policy.

@@ -1,6 +1,166 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Apply Changes to Draft?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply Changes to Draft?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "変更を下書きに反映しますか？"
+          }
+        }
+      }
+    },
+    "Apply to Draft" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply to Draft"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下書きに反映"
+          }
+        }
+      }
+    },
+    "Discard Suggestion" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discard Suggestion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提案を破棄"
+          }
+        }
+      }
+    },
+    "Nothing changes until you confirm this action." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing changes until you confirm this action."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この操作を確認するまで変更は行われません。"
+          }
+        }
+      }
+    },
+    "Original Draft" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original Draft"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "元の下書き"
+          }
+        }
+      }
+    },
+    "Review and Share" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review and Share"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認して共有"
+          }
+        }
+      }
+    },
+    "Generated on this device with Apple Foundation Models. Review the comparison before applying or saving. Sharing opens the system share sheet and never sends automatically. AI output may be inaccurate." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generated on this device with Apple Foundation Models. Review the comparison before applying or saving. Sharing opens the system share sheet and never sends automatically. AI output may be inaccurate."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple Foundation Modelsを使用して、このデバイス上で生成されました。反映または保存の前に比較内容を確認してください。共有するとシステムの共有シートが開き、自動送信されることはありません。AIの出力には誤りが含まれる場合があります。"
+          }
+        }
+      }
+    },
+    "Save as New Draft" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save as New Draft"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい下書きとして保存"
+          }
+        }
+      }
+    },
+    "Save Refined Draft?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Refined Draft?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整えた下書きを保存しますか？"
+          }
+        }
+      }
+    },
+    "Source Draft" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source Draft"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整える下書き"
+          }
+        }
+      }
+    },
     "%@ %@ remains usable without the assistant." : {
       "localizations" : {
         "ja" : {
