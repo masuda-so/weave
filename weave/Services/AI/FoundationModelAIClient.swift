@@ -76,6 +76,18 @@
 
     /// Adapts Foundation Models errors to the app's stable error vocabulary.
     static func aiError(from error: any Error) -> AIError {
+      #if compiler(<6.4)
+        if let generationError = error as? LanguageModelSession.GenerationError {
+          return aiError(from: generationError)
+        }
+      #else
+        if #unavailable(iOS 27.0, macOS 27.0, visionOS 27.0) {
+          if let generationError = error as? LanguageModelSession.GenerationError {
+            return aiError(from: generationError)
+          }
+        }
+      #endif
+
       #if compiler(>=6.4)
         if #available(iOS 27.0, macOS 27.0, visionOS 27.0, *) {
           if let languageModelError = error as? LanguageModelError {
@@ -124,6 +136,32 @@
       #endif
 
       return .generationFailed(debugDescription: String(describing: error))
+    }
+
+    /// Maps the GenerationError vocabulary shipped with the stable iOS 26 SDK.
+    private static func aiError(
+      from error: LanguageModelSession.GenerationError
+    ) -> AIError {
+      switch error {
+      case .exceededContextWindowSize:
+        return .contextWindowExceeded
+      case .assetsUnavailable:
+        return .unavailable(.modelNotReady)
+      case .guardrailViolation:
+        return .safetyGuardrail
+      case .unsupportedLanguageOrLocale:
+        return .unsupportedLanguage
+      case .rateLimited:
+        return .rateLimited
+      case .concurrentRequests:
+        return .requestInProgress
+      case .refusal:
+        return .requestRefused
+      case .unsupportedGuide(let context), .decodingFailure(let context):
+        return .generationFailed(debugDescription: context.debugDescription)
+      @unknown default:
+        return .generationFailed(debugDescription: String(describing: error))
+      }
     }
   }
 #endif

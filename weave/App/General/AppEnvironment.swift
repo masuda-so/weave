@@ -67,6 +67,11 @@ final class AppEnvironment {
     entitlements = await currentEntitlements
   }
 
+  /// Refreshes model availability after system settings or assets may have changed.
+  func refreshAIAvailability() async {
+    aiAvailability = await assistant.availability
+  }
+
   /// Restores App Store purchases and immediately applies the refreshed access state.
   func restorePurchases() async throws -> Bool {
     entitlements = try await subscriptionClient.restorePurchases()
@@ -126,6 +131,10 @@ final class AppEnvironment {
 
     assistantResponse = nil
     assistantErrorMessage = nil
+
+    if !isAIAvailable {
+      await refreshAIAvailability()
+    }
 
     guard isAIAvailable else {
       assistantErrorMessage = String(localized: "The on-device assistant is unavailable.")
