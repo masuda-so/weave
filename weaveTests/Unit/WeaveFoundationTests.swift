@@ -25,7 +25,7 @@ final class WeaveFoundationTests: XCTestCase {
     )
     XCTAssertEqual(
       WeaveCommerceCatalog.catalog.nonRenewingDurations[WeaveCommerceCatalog.dailyPassProductID],
-      24 * 60 * 60
+      7 * 24 * 60 * 60
     )
     XCTAssertEqual(product.name, "Weave")
     XCTAssertFalse(product.tagline.isEmpty)

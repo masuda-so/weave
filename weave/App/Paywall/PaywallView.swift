@@ -52,7 +52,7 @@ struct PaywallView: View {
               WeaveCommerceCatalog.dailyPassProductID
             ], environment.isProductActive(WeaveCommerceCatalog.dailyPassProductID) {
               Text(
-                "Daily Pass active until \(expirationDate.formatted(date: .abbreviated, time: .shortened))"
+                "7-Day Pass active until \(expirationDate.formatted(date: .abbreviated, time: .shortened))"
               )
               .font(.footnote.bold())
               .foregroundStyle(environment.product.accent)

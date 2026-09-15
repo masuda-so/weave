@@ -15,7 +15,7 @@ or public-release claim.
   provider.
 - StoreKit 2 product loading, purchase, restore, verified-entitlement, finishing,
   update handling, refund/revocation filtering, and device-clock expiry policy.
-- Non-renewing Daily Pass `llc.ether.weave.pro.daily`: 24 hours from the latest
+- Non-renewing 7-Day Pass `llc.ether.weave.pro.daily`: 7 days from the latest
   verified purchase date, with no stacking.
 - Auto-renewing `llc.ether.weave.pro.monthly` and
   `llc.ether.weave.pro.yearly` plans.
@@ -56,7 +56,7 @@ final working tree.
 - Confirm production prices, availability, tax/category details, and review
   screenshots; local StoreKit prices are test fixtures only.
 - Pass all nine unskipped StoreKit scenarios: product loading, verified purchase
-  and finish, unfinished-transaction processing, restore, Daily Pass boundary,
+  and finish, unfinished-transaction processing, restore, 7-Day Pass boundary,
   Ask to Buy pending, refund removal, latest-purchase repurchase, and auto-renew
   cancellation with access through expiry.
 - Publish and anonymously verify:

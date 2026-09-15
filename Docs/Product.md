@@ -14,16 +14,16 @@ sends the result automatically.
 
 ## Commerce baseline
 
-- `llc.ether.weave.pro.daily`: non-renewing Daily Pass with 24 hours of access.
+- `llc.ether.weave.pro.daily`: non-renewing 7-Day Pass with 7 days of access.
 - `llc.ether.weave.pro.monthly`: auto-renewable monthly plan.
 - `llc.ether.weave.pro.yearly`: auto-renewable yearly plan.
 
-The Daily Pass never renews automatically. App Store Connect products and pricing
+The 7-Day Pass never renews automatically. App Store Connect products and pricing
 must be configured and reviewed before these plans can be sold.
-Its 24-hour expiration is calculated locally from StoreKit's verified purchase date
+Its 7-day expiration is calculated locally from StoreKit's verified purchase date
 and the device wall clock. This release doesn't use a server-authoritative clock.
 The on-device assistant is the initial Pro capability; the core app remains usable
-without a purchase. An active Daily Pass cannot be repurchased or stacked.
+without a purchase. An active 7-Day Pass cannot be repurchased or stacked.
 
 ## Implementation ownership
 

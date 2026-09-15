@@ -23,7 +23,7 @@ editable generated revision, and requires confirmation before saving or applying
 Sharing opens the system share sheet and never sends automatically. The local
 StoreKit configuration provides:
 
-- `llc.ether.weave.pro.daily`: non-renewing 24-hour Daily Pass.
+- `llc.ether.weave.pro.daily`: non-renewing 7-day 7-Day Pass.
 - `llc.ether.weave.pro.monthly`: auto-renewable monthly plan.
 - `llc.ether.weave.pro.yearly`: auto-renewable yearly plan.
 

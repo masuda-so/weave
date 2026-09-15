@@ -257,7 +257,7 @@ struct AssistantView: View {
       )
     } description: {
       Text(
-        "Choose the non-renewing Daily Pass or an auto-renewing plan to use the on-device assistant."
+        "Choose the non-renewing 7-Day Pass or an auto-renewing plan to use the on-device assistant."
       )
     } actions: {
       Button("View Pro options") {

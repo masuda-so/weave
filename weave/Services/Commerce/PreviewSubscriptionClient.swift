@@ -6,10 +6,10 @@ actor PreviewSubscriptionClient: SubscriptionClient {
     [
       SubscriptionProduct(
         id: WeaveCommerceCatalog.dailyPassProductID,
-        displayName: "Weave Pro Daily Pass",
-        description: "One-time Pro access for 24 hours.",
+        displayName: "Weave Pro 7-Day Pass",
+        description: "One-time Pro access for 7 days.",
         displayPrice: "$0.99",
-        renewal: .manual(accessDuration: 24 * 60 * 60)
+        renewal: .manual(accessDuration: 7 * 24 * 60 * 60)
       ),
       SubscriptionProduct(
         id: WeaveCommerceCatalog.monthlyProductID,
@@ -29,7 +29,7 @@ actor PreviewSubscriptionClient: SubscriptionClient {
   func purchase(productID: String) async throws -> PurchaseOutcome {
     let expirationDates: [String: Date]
     if productID == WeaveCommerceCatalog.dailyPassProductID {
-      expirationDates = [productID: .now.addingTimeInterval(24 * 60 * 60)]
+      expirationDates = [productID: .now.addingTimeInterval(7 * 24 * 60 * 60)]
     } else {
       expirationDates = [:]
     }
