@@ -32,12 +32,14 @@ struct PaywallView: View {
           if !environment.isAIAvailable {
             CardView {
               Label(
-                "The on-device assistant is unavailable on this device or for the current language. Paid plans can’t be purchased until it becomes available.",
+                "The on-device assistant is currently unavailable. Pro requires a supported device and language, Apple Intelligence enabled, and the model downloaded. Purchasing a plan does not enable Apple Intelligence.",
                 systemImage: "exclamationmark.triangle"
               )
               .foregroundStyle(.secondary)
             }
-          } else {
+          }
+
+          Group {
             StoreView(
               ids: ProductID.offeredProductIDs(
                 dailyPassIsActive: environment.isProductActive(
@@ -60,6 +62,10 @@ struct PaywallView: View {
           }
 
           RestorePurchasesButton()
+
+          Button("Check Assistant Availability") {
+            Task { await environment.refreshAIAvailability() }
+          }
 
           Button("Manage Subscription") {
             isShowingSubscriptionManagement = true
@@ -86,6 +92,7 @@ struct PaywallView: View {
         }
         .padding(24)
       }
+      .task { await environment.refreshAIAvailability() }
       .navigationTitle("Pro")
       .manageSubscriptionsSheet(isPresented: $isShowingSubscriptionManagement)
     }
