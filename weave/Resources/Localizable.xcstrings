@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Check Assistant Availability" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アシスタントの利用可否を再確認"
+          }
+        }
+      }
+    },
     "Apply Changes to Draft?" : {
       "localizations" : {
         "en" : {
@@ -934,12 +944,12 @@
         }
       }
     },
-    "The on-device assistant is unavailable on this device or for the current language. Paid plans can’t be purchased until it becomes available." : {
+    "The on-device assistant is currently unavailable. Pro requires a supported device and language, Apple Intelligence enabled, and the model downloaded. Purchasing a plan does not enable Apple Intelligence." : {
       "localizations" : {
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "このデバイスまたは現在の言語ではオンデバイスアシスタントを利用できません。利用可能になるまで有料プランは購入できません。"
+            "value" : "現在、オンデバイスアシスタントを利用できません。Proの利用には、対応端末・言語、Apple Intelligenceの有効化、モデルのダウンロードが必要です。プランの購入だけではApple Intelligenceは有効になりません。"
           }
         }
       }
