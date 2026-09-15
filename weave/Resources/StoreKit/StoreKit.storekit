@@ -7,18 +7,18 @@
       "internalID" : "1000000001",
       "localizations" : [
         {
-          "description" : "One-time access to Weave Pro for 24 hours. This pass does not renew automatically.",
-          "displayName" : "Weave Pro Daily Pass",
+          "description" : "One-time access to Weave Pro for 7 days. This pass does not renew automatically.",
+          "displayName" : "Weave Pro 7-Day Pass",
           "locale" : "en_US"
         },
         {
-          "description" : "Weave Proを24時間利用できる買い切りパスです。自動更新されません。",
-          "displayName" : "Weave Pro デイリーパス",
+          "description" : "Weave Proを7日間利用できる買い切りパスです。自動更新されません。",
+          "displayName" : "Weave Pro 7日間パス",
           "locale" : "ja_JP"
         }
       ],
       "productID" : "llc.ether.weave.pro.daily",
-      "referenceName" : "Weave Pro Daily Pass",
+      "referenceName" : "Weave Pro 7-Day Pass",
       "type" : "NonRenewingSubscription"
     }
   ],

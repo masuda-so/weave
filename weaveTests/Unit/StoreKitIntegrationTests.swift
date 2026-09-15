@@ -254,7 +254,7 @@ final class StoreKitIntegrationTests: XCTestCase {
     )
   }
 
-  private static let dailyPassDuration: TimeInterval = 24 * 60 * 60
+  private static let dailyPassDuration: TimeInterval = 7 * 24 * 60 * 60
 
   private func makeSession() throws -> SKTestSession {
     let session = try SKTestSession(contentsOf: storeKitConfigurationURL)

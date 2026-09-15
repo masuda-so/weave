@@ -33,7 +33,7 @@ enum WeaveCommerceCatalog {
       return try SubscriptionCatalog.make(
         productIDs: Set(ProductID.all),
         premiumProductIDs: Set(ProductID.all),
-        nonRenewingDurations: [dailyPassProductID: 24 * 60 * 60]
+        nonRenewingDurations: [dailyPassProductID: 7 * 24 * 60 * 60]
       )
     } catch {
       assertionFailure("Invalid Weave subscription catalog: \(error)")
