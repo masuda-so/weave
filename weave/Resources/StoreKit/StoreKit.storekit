@@ -1,0 +1,109 @@
+{
+  "identifier" : "Weave-LOCAL-STOREKIT",
+  "nonRenewingSubscriptions" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1000000001",
+      "localizations" : [
+        {
+          "description" : "One-time access to Weave Pro for 24 hours. This pass does not renew automatically.",
+          "displayName" : "Weave Pro Daily Pass",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Weave Proを24時間利用できる買い切りパスです。自動更新されません。",
+          "displayName" : "Weave Pro デイリーパス",
+          "locale" : "ja_JP"
+        }
+      ],
+      "productID" : "llc.ether.weave.pro.daily",
+      "referenceName" : "Weave Pro Daily Pass",
+      "type" : "NonRenewingSubscription"
+    }
+  ],
+  "products" : [
+  ],
+  "settings" : {
+    "_locale" : "en_US",
+    "_storefront" : "USA"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "Weave-PRO",
+      "localizations" : [
+        {
+          "locale" : "en_US",
+          "name" : "Weave Pro"
+        },
+        {
+          "locale" : "ja_JP",
+          "name" : "Weave Pro"
+        }
+      ],
+      "name" : "Weave Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+          ],
+          "codeOffers" : [
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2000000001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly access to the on-device Weave assistant.",
+              "displayName" : "Weave Pro Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "オンデバイスのWeaveアシスタントを月ごとに利用できます。",
+              "displayName" : "Weave Pro 月額",
+              "locale" : "ja_JP"
+            }
+          ],
+          "productID" : "llc.ether.weave.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Weave Pro Monthly",
+          "subscriptionGroupID" : "Weave-PRO",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+          ],
+          "codeOffers" : [
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2000000002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Yearly access to the on-device Weave assistant.",
+              "displayName" : "Weave Pro Yearly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "オンデバイスのWeaveアシスタントを年ごとに利用できます。",
+              "displayName" : "Weave Pro 年額",
+              "locale" : "ja_JP"
+            }
+          ],
+          "productID" : "llc.ether.weave.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Weave Pro Yearly",
+          "subscriptionGroupID" : "Weave-PRO",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
