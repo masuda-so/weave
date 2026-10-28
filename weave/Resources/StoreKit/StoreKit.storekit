@@ -7,12 +7,12 @@
       "internalID" : "1000000001",
       "localizations" : [
         {
-          "description" : "One-time access to Weave Pro for 24 hours. This pass does not renew automatically.",
+          "description" : "24-hour Pro access. No automatic renewal.",
           "displayName" : "Weave Pro Daily Pass",
           "locale" : "en_US"
         },
         {
-          "description" : "Weave Proを24時間利用できる買い切りパスです。自動更新されません。",
+          "description" : "Proを24時間利用。自動更新はありません。",
           "displayName" : "Weave Pro デイリーパス",
           "locale" : "ja_JP"
         }
@@ -34,11 +34,13 @@
       "localizations" : [
         {
           "locale" : "en_US",
-          "name" : "Weave Pro"
+          "displayName" : "Weave Pro",
+          "description" : ""
         },
         {
           "locale" : "ja_JP",
-          "name" : "Weave Pro"
+          "displayName" : "Weave Pro",
+          "description" : ""
         }
       ],
       "name" : "Weave Pro",
@@ -55,12 +57,12 @@
           "introductoryOffer" : null,
           "localizations" : [
             {
-              "description" : "Monthly access to the on-device Weave assistant.",
+              "description" : "Monthly Pro access. Renews automatically.",
               "displayName" : "Weave Pro Monthly",
               "locale" : "en_US"
             },
             {
-              "description" : "オンデバイスのWeaveアシスタントを月ごとに利用できます。",
+              "description" : "Proを1か月利用。自動更新します。",
               "displayName" : "Weave Pro 月額",
               "locale" : "ja_JP"
             }
@@ -83,12 +85,12 @@
           "introductoryOffer" : null,
           "localizations" : [
             {
-              "description" : "Yearly access to the on-device Weave assistant.",
+              "description" : "Yearly Pro access. Renews automatically.",
               "displayName" : "Weave Pro Yearly",
               "locale" : "en_US"
             },
             {
-              "description" : "オンデバイスのWeaveアシスタントを年ごとに利用できます。",
+              "description" : "Proを1年間利用。自動更新します。",
               "displayName" : "Weave Pro 年額",
               "locale" : "ja_JP"
             }
