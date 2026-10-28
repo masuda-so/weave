@@ -1,6 +1,6 @@
 # Weave Terms of Use
 
-Effective date: October 23, 2026
+Effective date: October 27, 2026
 
 These terms govern your use of Weave, provided by Ether LLC.
 
