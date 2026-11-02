@@ -413,3 +413,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 product identifiers, Daily Pass policy, prompts/instructions, and user-facing
 copy remain local unless a narrower adopted unit is listed above. Native
 framework API use alone creates no additional third-party source claim.
+
+
+## AGENTS.md
+
+The title and section outline of `AGENTS.md` follow the outline that OpenAI
+Codex uses when it generates an `AGENTS.md` with its `/init` command
+([openai/codex](https://github.com/openai/codex/blob/6478a751fde8884b2fdc76486fe23175a8e795d4/codex-rs/tui/assets/prompt_for_init_command.md),
+`codex-rs/tui/assets/prompt_for_init_command.md`, commit `6478a751fde8`,
+2026-08-29, Apache-2.0). The headings are translated into Japanese; the contents
+are this repository's own.
