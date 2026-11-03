@@ -30,6 +30,8 @@ The local StoreKit configuration provides:
 - `llc.ether.weave.pro.monthly`: auto-renewable monthly plan.
 - `llc.ether.weave.pro.yearly`: auto-renewable yearly plan.
 
+The Pro product list waits for the initial entitlement check. While a Daily Pass is active, that pass is excluded from purchase options and returns after it expires. Purchases can be restored from Pro and Settings even when the assistant is unavailable.
+
 App Store Connect product records, production prices, and review metadata remain
 external release tasks.
 
