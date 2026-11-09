@@ -46,7 +46,7 @@ sample code was copied.
   Foundation Models error-type branching used as implementation guidance. Dynamic
   profiles, image prompts, streaming, and the sample's cache are not used by Weave.
 
-## Shared platform references
+## Family-wide references
 
 - [Food Truck](https://github.com/apple/sample-food-truck/tree/3954a769e99f3cc53297d94f2b960ceb2665b3d6):
   `General`, `Navigation`, feature folders, and StoreKit transaction listeners.
@@ -126,7 +126,7 @@ sample code was copied.
   adopting one identical configuration across the five apps is a local consistency
   decision.
 
-## Implementation notes and local decisions
+## Adopted implementation and local decisions
 
 - [Xcode support](https://developer.apple.com/support/xcode/)
   and [App Store Connect release notes](https://developer.apple.com/help/app-store-connect/release-notes/):

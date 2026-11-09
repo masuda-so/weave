@@ -1,7 +1,8 @@
 # Weave App Store submission record
 
-Status updated: August 30, 2026. This is a release gate, not a promise of a
-submission or public-release date.
+This is a working submission checklist, not a submission or public-release
+date. Every technical item must be revalidated against the current tree and
+final stable Xcode toolchain.
 
 ## App identity
 
@@ -38,7 +39,7 @@ and Terms. Before submission, verify that the pages are reachable without
 authentication, readable on mobile, and consistent with the final binary.
 Publication remains an external gate.
 
-## Privacy and platform declarations
+## Privacy and data handling
 
 - Product docs and current implementation state that drafts remain in the local
   SwiftData store, Foundation Models requests run on device, and Ether LLC does
@@ -73,6 +74,13 @@ Xcode and inspect the built icon at required sizes in Default, Dark, Clear, and
 Tinted appearances. Apple Developer Support case `20000121467132` is retained
 only as historical correspondence; App Review makes the final call.
 
+## Licensed Apple sample material
+
+Weave incorporates portions of Apple's distributed sample code and related
+Apple samples. Keep the applicable source links, copyright notices, and license
+text in `THIRD_PARTY_NOTICES.md`, and include the used code and assets in the
+final legal/content-rights review. Apple names do not imply endorsement.
+
 ## Technical gate
 
 - [ ] Static, privacy, localization, and resource checks pass on the final
@@ -89,10 +97,10 @@ only as historical correspondence; App Review makes the final call.
 - [ ] App Store metadata, screenshots, review notes, privacy answers, IAPs, and
       subscriptions receive human approval.
 
-Signing, validation, upload, TestFlight distribution, publication, and external
-messages are intentionally outside this local reconstruction unless separately
-authorized.
+No signing, upload, publication, or external message is performed without
+separate authorization.
 
-Record fresh commands, environment, results, and final Archive evidence in the
-release process; do not reuse earlier working-tree evidence. The remaining gates
-are summarized in [Release.md](Release.md).
+Record the selected stable Xcode/SDK/runtime, test results, Analyze result,
+Archive identity and contents, and public-URL checks after the current tree is
+revalidated. Do not reuse results or hashes from an earlier revision. The
+remaining gates are summarized in [Release.md](Release.md).

@@ -3,12 +3,17 @@
 Weave is a communication app for thoughtful drafting and messaging. It includes
 private local drafts, focused editing, and system sharing.
 
-## Initial navigation
+## Navigation
 
 - Drafts
 - Assistant
 - Pro
 - Settings
+
+## Core experience
+
+Drafts are stored on device with SwiftData. The app supports creation, focused
+editing, sharing, and deletion with visible save and delete failure states.
 
 ## Commerce baseline
 
