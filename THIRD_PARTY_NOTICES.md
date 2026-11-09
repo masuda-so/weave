@@ -12,7 +12,7 @@ Pass policy are local work.
 
 The shipping Icon Composer composition in `weave/Resources/AppIcon.icon` is local
 artwork, not Apple sample code or an SF Symbol. Apple icon documentation is used
-only for canvas, mask, appearance, and packaging guidance.
+for canvas, mask, appearance, and packaging guidance.
 
 ## SwiftData Animals editor and list presentation
 
@@ -407,7 +407,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ~~~
 
-## Local-only boundaries
+## Materials not included
 
 `ModelContext+Transaction.swift`, StoreKit configuration and scheme settings,
 product identifiers, Daily Pass policy, prompts/instructions, and user-facing
