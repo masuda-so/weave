@@ -36,18 +36,18 @@ external release tasks.
 ## Getting started and usage
 
 Open `weave.xcodeproj` in Xcode and select the shared `weave` scheme.
-See [repository structure and verification](Docs/Structure.md) for build and test guidance,
-and [release gates](Docs/Release.md) for device and release requirements.
+See [repository structure and verification](docs/Structure.md) for build and test guidance,
+and [release gates](docs/Release.md) for device and release requirements.
 The local StoreKit configuration is for purchase testing, not proof of production availability.
 
 ## Support and documentation
 
-- [Repository structure and verification](Docs/Structure.md)
-- [Product scope](Docs/Product.md)
-- [Privacy](Docs/Privacy.md) and [Terms](Docs/Terms.md)
-- [Implementation references](Docs/References.md)
-- [Release readiness](Docs/Release.md)
-- [App Store submission record](Docs/App-Store-Submission.md)
+- [Repository structure and verification](docs/Structure.md)
+- [Product scope](docs/Product.md)
+- [Privacy](docs/Privacy.md) and [Terms](docs/Terms.md)
+- [Implementation references](docs/References.md)
+- [Release readiness](docs/Release.md)
+- [App Store submission record](docs/App-Store-Submission.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 Published public routes:

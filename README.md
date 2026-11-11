@@ -34,18 +34,18 @@ App Store Connectの商品登録、本番価格、審査用情報の準備は、
 ## 導入と使い方
 
 Xcodeで`weave.xcodeproj`を開き、共有スキーム`weave`を選択します。
-ビルドとテストの手順は[構成と検証](Docs/Structure.md)、端末要件とリリース条件は[リリース条件](Docs/Release.md)を参照してください。
+ビルドとテストの手順は[構成と検証](docs/Structure.md)、端末要件とリリース条件は[リリース条件](docs/Release.md)を参照してください。
 ローカルStoreKit設定は購入テスト用で、本番販売が可能であることの証明ではありません。
 
 ## サポートと関連資料
 
-- [リポジトリ構成と検証](Docs/Structure.md)
-- [製品の範囲](Docs/Product.md)
-- [プライバシーポリシー](Docs/Privacy.md)
-- [利用規約](Docs/Terms.md)
-- [実装の参照元](Docs/References.md)
-- [リリース条件](Docs/Release.md)
-- [App Store提出記録](Docs/App-Store-Submission.md)
+- [リポジトリ構成と検証](docs/Structure.md)
+- [製品の範囲](docs/Product.md)
+- [プライバシーポリシー](docs/Privacy.md)
+- [利用規約](docs/Terms.md)
+- [実装の参照元](docs/References.md)
+- [リリース条件](docs/Release.md)
+- [App Store提出記録](docs/App-Store-Submission.md)
 - [第三者の権利表記](THIRD_PARTY_NOTICES.md)
 
 公開サイトのパス：
